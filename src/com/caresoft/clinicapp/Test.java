@@ -19,7 +19,8 @@ public class Test {
         String authTest1 = doctor10.accessAuthorized(1234)? "FAIL" : "PASS";
         System.out.printf("Physician auth test 1: %s\n", authTest1);
         
-        String authTest2 = doctor10.accessAuthorized(1)? "PASS" : "FAIL";
+        // AM TA meeting confirmed correct of Ternary operators
+        String authTest2 = doctor10.accessAuthorized(1)? "FAIL" : "PASS";
         System.out.printf("Physician auth test 2: %s\n", authTest2);
         
         // AdminUser Implementation Tests
